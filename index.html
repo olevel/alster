@@ -2,9 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+
+    <link href="font/font.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="css/material.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="external_resources/bx_slider/jquery.bxslider.min.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script defer type="text/javascript" src="js/material.js"></script>
+    <script type="text/javascript" src="js/my_js.js"></script>
+    <script type="text/javascript" src="external_resources/bx_slider/jquery.bxslider.min.js"></script>
+
     <title>Title</title>
 </head>
 <body>
+    <div class="body-width">
+        <!-- Always shows a header, even in smaller screens. -->
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header">
+                <div class="mdl-layout__header-row">
+                    <!-- Title -->
+                    <span class="mdl-layout-title">Alster</span>
+                    <!-- Add spacer, to align navigation to the right -->
+                    <div class="mdl-layout-spacer"></div>
+                    <!-- Navigation. We hide it in small screens. -->
+                    <nav class="mdl-navigation mdl-layout--large-screen-only">
+                        <a class="mdl-navigation__link" href="">Packages</a>
+                        <a class="mdl-navigation__link" href="">Billing</a>
+                        <a class="mdl-navigation__link" href="">Contact us</a>
+                        <a class="mdl-navigation__link" href="">Login</a>
+
+                    </nav>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer mdl-layout--small-screen-only">
+                <span class="mdl-layout-title">Alster</span>
+                <nav class="mdl-navigation">
+                    <a class="mdl-navigation__link" href="">Packages</a>
+                    <a class="mdl-navigation__link" href="">Billing</a>
+                    <a class="mdl-navigation__link" href="">Contact us</a>
+                    <a class="mdl-navigation__link" href="">Login</a>
+
+                </nav>
+            </div>
+            <main class="index-content">
+
+                <div class="page-content">
+                    <div class="index-alster">
+                        <div class="alster_title">Alster Ltd.</div>
+                        <div class="alster_title--support_text">Professional, Efficient and Valuable Partner for your IT solutions.</div>
+                    </div>
+
+                    <div>
+                        register and join use
+                    </div>
+                    <div class="index-carosel">
+                        <ul class="bxslider">
+                            <li><img src="graphics/carosel/carosel_chip.jpeg" height="400" width="1080" /></li>
+                            <li><img src="graphics/carosel/carosel_iphone.jpeg"  height="400" width="1080"/></li>
+                            <li><img src="graphics/carosel/carosel_keys.jpg"  height="400" width="1080" /></li>
+                            <li><img src="graphics/carosel/carosel_mac.jpeg"  height="400" width="1080" /></li>
+                            <li><img src="graphics/carosel/carosel_samsung.jpeg"  height="400" width="1080" /></li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        our partners
+                    </div>
+
+                    <footer class="mdl-mini-footer">
+                        <div class="mdl-mini-footer__left-section">
+                            <div class="mdl-logo">Title</div>
+                            <ul class="mdl-mini-footer__link-list">
+                                <li><a href="#">Help</a></li>
+                                <li><a href="#">Privacy & Terms</a></li>
+                            </ul>
+                        </div>
+                    </footer>
+
+                </div>
+            </main>
+        </div>
+
+    </div>
 
 </body>
 </html>
